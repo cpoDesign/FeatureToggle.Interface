@@ -29,7 +29,7 @@ steps:
 
     packDirectory: '$(Build.StagingDirectory)'
 
-     versioningScheme: 'off'
+    versioningScheme: 'off'
 
 
 - powershell: |
