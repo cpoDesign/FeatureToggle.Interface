@@ -34,6 +34,7 @@ steps:
 
 - powershell: |
    cd "$(Build.ArtifactStagingDirectory)"
+   ls
    dotnet nuget push FeatureToggle.Interface.1.0.$(Build.BuildId).nupkg -k $(nugetpwd) -s https://api.nuget.org/v3/index.json 
   displayName: 'Publish new version to nuget'
 
