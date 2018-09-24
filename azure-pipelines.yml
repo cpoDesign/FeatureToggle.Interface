@@ -20,16 +20,16 @@ steps:
     arguments: '--configuration $(BuildConfiguration)'
 
 
-- task: DotNetCoreCLI@2
-  displayName: 'dotnet pack'
-  inputs:
-    command: pack
+# - task: DotNetCoreCLI@2
+#   displayName: 'dotnet pack'
+#   inputs:
+#     command: pack
 
-    packagesToPack: FeatureToggle.Interface/FeatureToggle.Interface.csproj
+#     packagesToPack: FeatureToggle.Interface/FeatureToggle.Interface.csproj
 
-    packDirectory: '$(Build.StagingDirectory)'
+#     packDirectory: '$(Build.StagingDirectory)'
 
-    versioningScheme: 'off'
+#     versioningScheme: 'off'
 
 
 - powershell: |
