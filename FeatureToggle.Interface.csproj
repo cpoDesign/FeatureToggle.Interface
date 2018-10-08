@@ -5,10 +5,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Interface for feature toggling implementation</Description>
     <PackageTags>featuretoggle; feature-toggle;features</PackageTags>
-    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated project references</PackageReleaseNotes>
     <Authors>cpodesign;marshalsea</Authors>
     <Company>cpodesign;marshalsea</Company>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
+    <RepositoryUrl>https://github.com/cpoDesign/FeatureToggle.Interface</RepositoryUrl>
+    <PackageProjectUrl>https://cpodesign.github.io/FeatureToggle.Interface/</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/cpoDesign/FeatureToggle.Interface/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright></Copyright>
   </PropertyGroup>
 
 </Project>
