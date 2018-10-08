@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Interface for feature toggling implementation</Description>
-    <PackageTags>cpodesign; featuretoggle</PackageTags>
+    <PackageTags>cpodesign; featuretoggle; Feature toggle</PackageTags>
   </PropertyGroup>
 
 </Project>
