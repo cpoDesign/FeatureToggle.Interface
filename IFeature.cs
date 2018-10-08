@@ -8,6 +8,5 @@
         /// <param name="feature">Name of the feature</param>
         /// <returns>Boolean result</returns>
         bool IsFeatureEnabled(string feature);
-
     }
 }
