@@ -4,7 +4,11 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Interface for feature toggling implementation</Description>
-    <PackageTags>cpodesign; featuretoggle; Feature toggle</PackageTags>
+    <PackageTags>featuretoggle; feature-toggle;features</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Authors>cpodesign;marshalsea</Authors>
+    <Company>cpodesign;marshalsea</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
